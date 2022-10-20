@@ -82,9 +82,9 @@
           <div class="js-scrollbar duik-sidebar-sticky">
             <h5 class="duik-sidebar__heading">Home page</h5>
             <ul class="duik-sidebar__nav">
-              <li class="duik-sidebar__item"><a class="duik-sidebar__link active" href="./hp-header.html">Header</a></li>
+              <li class="duik-sidebar__item"><a class="duik-sidebar__link" href="./hp-header.html">Header</a></li>
               <li class="duik-sidebar__item"><a class="duik-sidebar__link" href="./hp-about.html">About Us section</a></li>
-              <li class="duik-sidebar__item"><a class="duik-sidebar__link" href="./hp-messages.html">Messages section</a></li>
+              <li class="duik-sidebar__item"><a class="duik-sidebar__link active" href="./hp-messages.html">Messages section</a></li>
               <li class="duik-sidebar__item"><a class="duik-sidebar__link" href="./hp-posters.html">Official Posters section</a></li>
               <li class="duik-sidebar__item"><a class="duik-sidebar__link" href="./hp-events.html">Events section</a></li>
               <li class="duik-sidebar__item"><a class="duik-sidebar__link" href="./hp-partners.html">Our partners section</a></li>
@@ -104,10 +104,9 @@
           <div class="col-xl-2 order-xl-2 d-none d-xl-inline-block">
             <ul class="js-scroll-nav duik-content-nav">    
               <li class="duik-content-nav__item"><a href="#introduction">Introduction</a></li>
-              <li class="duik-content-nav__item"><a href="#mainmenu">Edit Main menu</a></li>
-              <li class="duik-content-nav__item"><a href="#banner">Edit Banner section</a></li>
-              <li class="duik-content-nav__item"><a href="#social">Edit Social icons</a></li>
-              <li class="duik-content-nav__item"><a href="#messages">Edit Top messages</a></li>
+              <li class="duik-content-nav__item"><a href="#color">Edit background color</a></li>
+              <li class="duik-content-nav__item"><a href="#messagesedit">Edit messages</a></li>
+
             </ul>
           </div>
           <!-- End Content Nav -->
@@ -116,33 +115,30 @@
           <div class="col-xl-10 order-xl-1 duik-content border-bottom">
             <div id="introduction" class="border-bottom mb-7">
               <h1>Introduction</h1>
-              <p>The header and baneer have the following elements:
-                <li>Wildlife Day and CITES logos at top right (not editable)</li>
-                <li>Main menu: Home, Events, Material Outreach, Messages, Press room</li>
-                <li>Language selector at top left</li>
-                <li>Search button at top left</li>
-                <li>Banner title at the left center</li>
-                <li>A background Image or video scale responsively according to the browser width</li>
-                <li>Social icons at the button left</li>
-                <li>Two top messages at the button right</li>
+              <p> The messages content type includes:</p>
+                <li>title/name</li>
+                <li>image</li>
+                <li>position</li>
+                <li>text</li>
+                <li>CTA link</li>
                 <br>
-                All elements are editable by the user with admin role permissions.
-                </p>
+                The “Messages” block is a custom block that admin user can configure to appear in a standard block region or landing page region. Admin user can place the “message” items inside a custom block.
+               </p>
             </div>
 
-            <!-- Main menu -->
-            <div id="mainmenu" class="border-bottom mb-7">
-              <h2 class="h4">Edit Main menu</h2>
-              <p><span class="badge badge-primary badge-pill align-self-center mr-2">1</span>To edit the Main menu title and/or links, a logged-in user should select on the Administrative Menu the following tabs: Structure -> Menus -> Main navigation</p>
-              <img src="./img/header/mainmenu.png" alt="aa" class="img-fluid">
-              <p><span class="badge badge-primary badge-pill align-self-center mr-2">2</span>To edit the title and/or link of the relevant menu tab, need to click on edit button: </p>
-              <img src="./img/header/editmenu.png" alt="aa" class="img-fluid">
+            <!-- Background color -->
+            <div id="color" class="border-bottom mb-7">
+              <h2 class="h4">Edit background color</h2>
+              <p><span class="badge badge-primary badge-pill align-self-center mr-2">1</span>To edit the background color of the messages section, a logged-in user should use the Layout builder within the Administrative Menu. Layout -> Edit button -> Configure on the top left right of messages section:</p>
+              <img src="./img/messages/configure.png" alt="aa" class="img-fluid">
+              <p><span class="badge badge-primary badge-pill align-self-center mr-2">2</span>........................... </p>
+              <img src="./img/messages/configureblock.png" alt="aa" class="img-fluid">
             </div>
-            <!-- End Main menu -->
+            <!-- End Background color -->
 
-            <!-- Banner section -->
-            <div id="banner" class="border-bottom mb-7">
-              <h2 class="h4">Edit Banner section</a></h2>
+            <!-- Messages section -->
+            <div id="messagesedit" class="border-bottom mb-7">
+              <h2 class="h4">Edit messages</a></h2>
               <p><span class="badge badge-primary badge-pill align-self-center mr-2">1</span>To edit the Banner section, a logged-in user should select the Edit tab right at the bottom of the banner:</p>
               <img src="./img/header/banneredit.png" alt="aa" class="img-fluid">
               <p><span class="badge badge-primary badge-pill align-self-center mr-2">2</span>To edit the main message from the banner, a "banner title" field should be used. To insert an image or a video file, "Add media" button should be clicked, an additional popup menu will apear.</p>
@@ -151,24 +147,9 @@
               <img src="./img/header/imgvideo.PNG" alt="aa" class="img-fluid">
               <p><span class="badge badge-primary badge-pill align-self-center mr-2">4</span>After editing the fields, click Save configuration to see the changes applied to the site.</p>
             </div>
-            <!-- End Banner section -->
+            <!-- End Messages section -->
 
-            <!-- Edit Social icons -->
-            <div id="social" class="border-bottom mb-7">
-              <h2 class="h4">Edit Social icons</h2>
-              <p>.......................</p>
-              <p>.......................</p>
-            </div>
-            <!-- End social icons-->
-          
-            <!-- Edit Top messages -->
-            <div id="messages" class="border-bottom mb-7">
-              <h2 class="h4">Edit Top messages</h2>
-              <p><span class="badge badge-primary badge-pill align-self-center mr-2">1</span>To edit the messages on the banner section, click on edit button from the right left of the image.</p>
-              <p><span class="badge badge-primary badge-pill align-self-center mr-2">2</span>In the Administrative menu, could be edited the following fields: Title, Position, Description, Message date, Image, add video. After editing the fields, click Save configuration to see the changes applied to the site.</p>
-              <img src="./img/header/editmessage.PNG" alt="aa" class="img-fluid">
-            </div>
-            <!-- End Top message-->
+            
 
 
 

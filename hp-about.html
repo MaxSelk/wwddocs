@@ -82,8 +82,8 @@
           <div class="js-scrollbar duik-sidebar-sticky">
             <h5 class="duik-sidebar__heading">Home page</h5>
             <ul class="duik-sidebar__nav">
-              <li class="duik-sidebar__item"><a class="duik-sidebar__link active" href="./hp-header.html">Header</a></li>
-              <li class="duik-sidebar__item"><a class="duik-sidebar__link" href="./hp-about.html">About Us section</a></li>
+              <li class="duik-sidebar__item"><a class="duik-sidebar__link" href="./hp-header.html">Header</a></li>
+              <li class="duik-sidebar__item"><a class="duik-sidebar__link active" href="./hp-about.html">About Us section</a></li>
               <li class="duik-sidebar__item"><a class="duik-sidebar__link" href="./hp-messages.html">Messages section</a></li>
               <li class="duik-sidebar__item"><a class="duik-sidebar__link" href="./hp-posters.html">Official Posters section</a></li>
               <li class="duik-sidebar__item"><a class="duik-sidebar__link" href="./hp-events.html">Events section</a></li>
@@ -104,10 +104,9 @@
           <div class="col-xl-2 order-xl-2 d-none d-xl-inline-block">
             <ul class="js-scroll-nav duik-content-nav">    
               <li class="duik-content-nav__item"><a href="#introduction">Introduction</a></li>
-              <li class="duik-content-nav__item"><a href="#mainmenu">Edit Main menu</a></li>
-              <li class="duik-content-nav__item"><a href="#banner">Edit Banner section</a></li>
-              <li class="duik-content-nav__item"><a href="#social">Edit Social icons</a></li>
-              <li class="duik-content-nav__item"><a href="#messages">Edit Top messages</a></li>
+              <li class="duik-content-nav__item"><a href="#title">Edit Title, Video, Main text</a></li>
+              <li class="duik-content-nav__item"><a href="#cta">Edit CTA cards</a></li>
+              <li class="duik-content-nav__item"><a href="#ctaremoveadd">Remove/Add CTA cards</a></li>
             </ul>
           </div>
           <!-- End Content Nav -->
@@ -116,59 +115,57 @@
           <div class="col-xl-10 order-xl-1 duik-content border-bottom">
             <div id="introduction" class="border-bottom mb-7">
               <h1>Introduction</h1>
-              <p>The header and baneer have the following elements:
-                <li>Wildlife Day and CITES logos at top right (not editable)</li>
-                <li>Main menu: Home, Events, Material Outreach, Messages, Press room</li>
-                <li>Language selector at top left</li>
-                <li>Search button at top left</li>
-                <li>Banner title at the left center</li>
-                <li>A background Image or video scale responsively according to the browser width</li>
-                <li>Social icons at the button left</li>
-                <li>Two top messages at the button right</li>
+              <p>The About Us section have following elements:
+                <li>Block with a title on a background gradient color on the top left</li>
+                <li>Video block</li>
+                <li>HTML text on the top left</li>
+                <li>Three call to action cards on bottom center</li>
                 <br>
                 All elements are editable by the user with admin role permissions.
                 </p>
             </div>
 
-            <!-- Main menu -->
-            <div id="mainmenu" class="border-bottom mb-7">
-              <h2 class="h4">Edit Main menu</h2>
-              <p><span class="badge badge-primary badge-pill align-self-center mr-2">1</span>To edit the Main menu title and/or links, a logged-in user should select on the Administrative Menu the following tabs: Structure -> Menus -> Main navigation</p>
-              <img src="./img/header/mainmenu.png" alt="aa" class="img-fluid">
-              <p><span class="badge badge-primary badge-pill align-self-center mr-2">2</span>To edit the title and/or link of the relevant menu tab, need to click on edit button: </p>
-              <img src="./img/header/editmenu.png" alt="aa" class="img-fluid">
+            <!-- Title/Video/Text -->
+            <div id="title" class="border-bottom mb-7">
+              <h2 class="h4">Edit Title, Video, Main text </h2>
+              <p><span class="badge badge-primary badge-pill align-self-center mr-2">1</span>To edit the title, video and main text of the About us section, a logged-in user should use the Layout builder within the Administrative Menu</p>
+              <img src="./img/about/layout.PNG" alt="aa" class="img-fluid">
+              <p><span class="badge badge-primary badge-pill align-self-center mr-2">2</span>Within the Layout builder, admin user can configure/edit the required part clicking on edit button -> configure: </p>
+              <img src="./img/about/configure.png" alt="aa" class="img-fluid">
+              <p><span class="badge badge-primary badge-pill align-self-center mr-2">3</span>A configuration block allows adim user to edit the Main Title, to insert video via URL or from local mashine, Edit the main text, insert a URL for "read more" button. After editing the fields, click Update, then Save the Layout configuration to see the changes applied to the site. </p>
+              <img src="./img/about/configblock.PNG" alt="aa" class="img-fluid">
             </div>
-            <!-- End Main menu -->
+            <!-- End Title/Video/Text -->
 
-            <!-- Banner section -->
-            <div id="banner" class="border-bottom mb-7">
-              <h2 class="h4">Edit Banner section</a></h2>
-              <p><span class="badge badge-primary badge-pill align-self-center mr-2">1</span>To edit the Banner section, a logged-in user should select the Edit tab right at the bottom of the banner:</p>
-              <img src="./img/header/banneredit.png" alt="aa" class="img-fluid">
-              <p><span class="badge badge-primary badge-pill align-self-center mr-2">2</span>To edit the main message from the banner, a "banner title" field should be used. To insert an image or a video file, "Add media" button should be clicked, an additional popup menu will apear.</p>
-              <img src="./img/header/banner.PNG" alt="aa" class="img-fluid">
-              <p><span class="badge badge-primary badge-pill align-self-center mr-2">3</span>To add or select an image or a video for the banner section, select image or video tab, choose file from your computer or select one from the existing clicking on the afferent thumbnail. Click on Insert selected button to save the changes.</p>
-              <img src="./img/header/imgvideo.PNG" alt="aa" class="img-fluid">
-              <p><span class="badge badge-primary badge-pill align-self-center mr-2">4</span>After editing the fields, click Save configuration to see the changes applied to the site.</p>
+            <!-- CTA -->
+            <div id="cta" class="border-bottom mb-7">
+              <h2 class="h4">Edit CTA cards</a></h2>
+              <p><span class="badge badge-primary badge-pill align-self-center mr-2">1</span>To edit the CTA cards, user should select the Edit tab and click on configure button:</p>
+              <img src="./img/about/CTAconfig.png" alt="aa" class="img-fluid">
+              <p><span class="badge badge-primary badge-pill align-self-center mr-2">2</span>Within the Configuration block, admin user can edit the card color using the pre-defined gradient or a fixed background color, Card title, description, set an URL for READ MORE button. Scrolling down, admin user is able to edit all three cards. After editing all fields, click Update button, then save the layout configuration.    </p>
+              <img src="./img/about/CTAedit.png" alt="aa" class="img-fluid">
             </div>
-            <!-- End Banner section -->
+            <!-- End CTA -->
 
-            <!-- Edit Social icons -->
-            <div id="social" class="border-bottom mb-7">
-              <h2 class="h4">Edit Social icons</h2>
-              <p>.......................</p>
-              <p>.......................</p>
+            <!-- Remove/Add CTA cards -->
+            <div id="ctaremoveadd" class="border-bottom mb-7">
+              <h2 class="h4">Remove/Add CTA cards</a></h2>
+              <p><span class="badge badge-primary badge-pill align-self-center mr-2">1</span>To remove the CTA cards, admin user should select the Edit tab and click on remove button:</p>
+              <img src="./img/about/CTAremove.png" alt="aa" class="img-fluid">
+              <p><span class="badge badge-primary badge-pill align-self-center mr-2">2</span>To add the CTA cards in the About Us section, click on "+ Add block" within the Layout builder:</p>
+              <img src="./img/about/ctaadd.PNG" alt="aa" class="img-fluid">
+              <p><span class="badge badge-primary badge-pill align-self-center mr-2">3</span>Next step is to create a new Custom block for CTA cards:</p>
+              <img src="./img/about/createcustom.PNG" alt="aa" class="img-fluid">
+              <p><span class="badge badge-primary badge-pill align-self-center mr-2">4</span>Within new custom block, a Cards block should be created:</p>
+              <img src="./img/about/cardsblock.png" alt="aa" class="img-fluid">
+              <p><span class="badge badge-primary badge-pill align-self-center mr-2">5</span>Within the Configuration block, all related fields should be completed. Once the fields for the firs card are completed, click on add card and complete the same for second card, and for third card as well. After editing all fields, click Create block button</p>
+              <img src="./img/about/createcard.png" alt="aa" class="img-fluid">
+              <p><span class="badge badge-primary badge-pill align-self-center mr-2">6</span>After cards creation, drag and drop all three cards to the bottom of About Us section, click on Save layout to see tha changes on the site.s</p>
+              <img src="./img/about/drag.png" alt="aa" class="img-fluid">
             </div>
-            <!-- End social icons-->
-          
-            <!-- Edit Top messages -->
-            <div id="messages" class="border-bottom mb-7">
-              <h2 class="h4">Edit Top messages</h2>
-              <p><span class="badge badge-primary badge-pill align-self-center mr-2">1</span>To edit the messages on the banner section, click on edit button from the right left of the image.</p>
-              <p><span class="badge badge-primary badge-pill align-self-center mr-2">2</span>In the Administrative menu, could be edited the following fields: Title, Position, Description, Message date, Image, add video. After editing the fields, click Save configuration to see the changes applied to the site.</p>
-              <img src="./img/header/editmessage.PNG" alt="aa" class="img-fluid">
-            </div>
-            <!-- End Top message-->
+            <!-- End Remove/Add CTA cards -->
+            
+            
 
 
 
