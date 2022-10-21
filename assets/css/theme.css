@@ -83,6 +83,10 @@
   margin-block: .15rem;
 }
 
+.gap {
+  gap: 1.5rem;
+}
+
 *,
 *::before,
 *::after {
