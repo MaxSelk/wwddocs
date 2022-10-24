@@ -83,9 +83,9 @@
             <h5 class="duik-sidebar__heading">Home page</h5>
             <ul class="duik-sidebar__nav">
               <li class="duik-sidebar__item"><a class="duik-sidebar__link" href="./hp-header.html">Header</a></li>
-              <li class="duik-sidebar__item"><a class="duik-sidebar__link active" href="./hp-about.html">About Us section</a></li>
+              <li class="duik-sidebar__item"><a class="duik-sidebar__link" href="./hp-about.html">About Us section</a></li>
               <li class="duik-sidebar__item"><a class="duik-sidebar__link" href="./hp-messages.html">Messages section</a></li>
-              <li class="duik-sidebar__item"><a class="duik-sidebar__link" href="./hp-posters.html">Official Posters section</a></li>
+              <li class="duik-sidebar__item"><a class="duik-sidebar__link active" href="./hp-posters.html">Official Posters section</a></li>
               <li class="duik-sidebar__item"><a class="duik-sidebar__link" href="./hp-events.html">Events section</a></li>
               <li class="duik-sidebar__item"><a class="duik-sidebar__link" href="./hp-partners.html">Our partners section</a></li>
               <li class="duik-sidebar__item"><a class="duik-sidebar__link" href="./hp-footer.html">Pre-footer/Footer section</a></li>
@@ -104,9 +104,10 @@
           <div class="col-xl-2 order-xl-2 d-none d-xl-inline-block">
             <ul class="js-scroll-nav duik-content-nav">    
               <li class="duik-content-nav__item"><a href="#introduction">Introduction</a></li>
-              <li class="duik-content-nav__item"><a href="#title">Edit Title, Video, Main text</a></li>
-              <li class="duik-content-nav__item"><a href="#cta">Edit CTA cards</a></li>
-              <li class="duik-content-nav__item"><a href="#ctaremoveadd">Remove/Add CTA cards</a></li>
+              <li class="duik-content-nav__item"><a href="#configurepost">Configure posters</a></li>
+              <li class="duik-content-nav__item"><a href="#configurevideo">Configure video</a></li>
+              <li class="duik-content-nav__item"><a href="#addpost">Add/remove posters</a></li>
+              <li class="duik-content-nav__item"><a href="#addvideo">Add/remove video</a></li>
             </ul>
           </div>
           <!-- End Content Nav -->
@@ -115,58 +116,57 @@
           <div class="col-xl-10 order-xl-1 duik-content border-bottom">
             <div id="introduction" class="border-bottom mb-7">
               <h1>Introduction</h1>
-              <p>The About Us section have following elements:
-                <li>Block with a title on a background gradient color on the top left</li>
-                <li>Video block</li>
-                <li>HTML text on the top left</li>
-                <li>Three call to action cards on bottom center</li>
-                <br>
-                All elements are editable by the user with admin role permissions.
-                </p>
+              <p> The multimedia content type includes the images and video type fields.
+                A custom block with a title and image is on the top left side of the section, the video block is on the top right side. Video title is redirecting the user to the Material Outreach page. Video block contains published date, and name at a maximum of 108 characters. This is a view block that admin user can configure to appear in a standard block region or landing page region.
+                Official posters section includes:</p>
+                <li>An image that is taken to the corresponding external page</li>
+                <li>Video block with a scroll bar from the right side. The scroll bar contains a maximum of 10 items</li>
+                <li>There are two more blocks below for the addition of more posters.</li>
+               </p>
             </div>
 
-            <!-- Title/Video/Text -->
-            <div id="title" class="border-bottom mb-7">
-              <h2 class="h4">Edit Title, Video, Main text </h2>
-              <p><span class="badge badge-primary badge-pill align-self-center mr-2">1</span>To edit the title, video and main text of the About us section, a logged-in user should use the Layout builder within the Administrative Menu</p>
-              <img src="./img/about/layout.PNG" alt="aa" class="img-fluid">
-              <p><span class="badge badge-primary badge-pill align-self-center mr-2">2</span>Within the Layout builder, admin user can configure/edit the required part clicking on edit button -> configure: </p>
-              <img src="./img/about/configure.png" alt="aa" class="img-fluid">
-              <p><span class="badge badge-primary badge-pill align-self-center mr-2">3</span>A configuration block allows adim user to edit the Main Title, to insert video via URL or from local mashine, Edit the main text, insert a URL for "read more" button. After editing the fields, click Update, then Save the Layout configuration to see the changes applied to the site. </p>
-              <img src="./img/about/configblock.PNG" alt="aa" class="img-fluid">
+            <!-- Configure posters -->
+            <div id="configurepost" class="border-bottom mb-7">
+              <h2 class="h4">Configure posters</h2>
+              <p><span class="badge badge-primary badge-pill align-self-center mr-2">1</span>To edit the poaster, a logged-in user should click on Edit button where the image can be changed, added an URL, click on Save button to see the changes applied:</p>
+              <img src="./img/posters/editpost.png" alt="aa" class="img-fluid">
             </div>
-            <!-- End Title/Video/Text -->
+            <!-- End Configure posters -->
 
-            <!-- CTA -->
-            <div id="cta" class="border-bottom mb-7">
-              <h2 class="h4">Edit CTA cards</a></h2>
-              <p><span class="badge badge-primary badge-pill align-self-center mr-2">1</span>To edit the CTA cards, user should select the Edit tab and click on configure button:</p>
-              <img src="./img/about/CTAconfig.png" alt="aa" class="img-fluid">
-              <p><span class="badge badge-primary badge-pill align-self-center mr-2">2</span>Within the Configuration block, admin user can edit the card color using the pre-defined gradient or a fixed background color, Card title, description, set an URL for READ MORE button. Scrolling down, admin user is able to edit all three cards. After editing all fields, click Update button, then save the layout configuration.    </p>
-              <img src="./img/about/CTAedit.png" alt="aa" class="img-fluid">
-            </div>
-            <!-- End CTA -->
+            <!-- Configure video -->
+            <div id="configurevideo" class="border-bottom mb-7">
+              <h2 class="h4">Configure video</a></h2>
+              <p><span class="badge badge-primary badge-pill align-self-center mr-2">1</span>To edit the video, a logged-in user should click on Edit button where user is able to edit the Title, the video link/file, description and the posting date:</p>
+              <img src="./img/posters/editvideo.png"aa" class="img-fluid">
 
-            <!-- Remove/Add CTA cards -->
-            <div id="ctaremoveadd" class="border-bottom mb-7">
-              <h2 class="h4">Remove/Add CTA cards</a></h2>
-              <p><span class="badge badge-primary badge-pill align-self-center mr-2">1</span>To remove the CTA cards, admin user should select the Edit tab and click on remove button:</p>
-              <img src="./img/about/CTAremove.png" alt="aa" class="img-fluid">
-              <p><span class="badge badge-primary badge-pill align-self-center mr-2">2</span>To add the CTA cards in the About Us section, click on "+ Add block" within the Layout builder:</p>
-              <img src="./img/about/ctaadd.PNG" alt="aa" class="img-fluid">
-              <p><span class="badge badge-primary badge-pill align-self-center mr-2">3</span>Next step is to create a new Custom block for CTA cards:</p>
-              <img src="./img/about/createcustom.PNG" alt="aa" class="img-fluid">
-              <p><span class="badge badge-primary badge-pill align-self-center mr-2">4</span>Within new custom block, a Cards block should be created:</p>
-              <img src="./img/about/cardsblock.png" alt="aa" class="img-fluid">
-              <p><span class="badge badge-primary badge-pill align-self-center mr-2">5</span>Within the Configuration block, all related fields should be completed. Once the fields for the firs card are completed, click on add card and complete the same for second card, and for third card as well. After editing all fields, click Create block button</p>
-              <img src="./img/about/createcard.png" alt="aa" class="img-fluid">
-              <p><span class="badge badge-primary badge-pill align-self-center mr-2">6</span>After cards creation, drag and drop all three cards to the bottom of About Us section, click on Save layout to see tha changes on the site.</p>
-              <img src="./img/about/drag.png" alt="aa" class="img-fluid">
-            </div>
-            <!-- End Remove/Add CTA cards -->
+              </div>
+            <!-- End Configure video -->
             
+            <!-- Add Add/remove posters -->
+            <div id="addpost" class="border-bottom mb-7">
+              <h2 class="h4">Add/remove posters</a></h2>
+              <p><span class="badge badge-primary badge-pill align-self-center mr-2">1</span>As a logged-in user, click on Lauout on the Administrative menu, then scroll to posters section:</p>
+              <img src="./img/posters/layout.PNG" alt="aa" class="img-fluid">
+              <p><span class="badge badge-primary badge-pill align-self-center mr-2">2</span>To remove posters section, within the configuration block, click on "x" at configure section button, then remove the section:</p>
+              <img src="./img/posters/removepost.PNG" alt="aa" class="img-fluid">
+              <p><span class="badge badge-primary badge-pill align-self-center mr-2">3</span>To add a posters section, within the configuration block, click on "add section", then on predefined WWD After Posters button:</p>
+              <img src="./img/posters/addposter.PNG" alt="aa" class="img-fluid">
+              <p><span class="badge badge-primary badge-pill align-self-center mr-2">4</span>Into a Configure section, select Column widht, and padding to the bottom:</p>
+              <img src="./img/posters/configsection.png" alt="aa" class="img-fluid">
+              <p><span class="badge badge-primary badge-pill align-self-center mr-2">5</span>Into a created section, Add a block -> Create a Custom block -> Multimedia block -> individual poter. Repeat the same action for created section on the right side and save the layout to see the changes on the site.</p>
+              <img src="./img/posters/individual poster.png" alt="aa" class="img-fluid">
+            </div>
+            <!-- End Add Add/remove posters -->
             
-
+            <!-- Add Add/remove video -->
+            <div id="addvideo" class="border-bottom mb-7">
+              <h2 class="h4">Add/remove video</a></h2>
+              <p><span class="badge badge-primary badge-pill align-self-center mr-2">1</span>As a logged-in user, click on Content tab on the Administrative menu, then Add content -> Messages:</p>
+              <img src="./img/" alt="aa" class="img-fluid">
+              <p><span class="badge badge-primary badge-pill align-self-center mr-2">2</span>Within the configuration block, admin user should complete all related to the message fields. Select at the bottom checkmark to publish or not the message and save it:</p>
+              <img src="./img/" alt="aa" class="img-fluid">
+            </div>
+            <!-- End Add Add/remove video -->
 
 
   <!-- Go to Top -->
