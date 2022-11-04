@@ -85,8 +85,8 @@
               <li class="duik-sidebar__item"><a class="duik-sidebar__link" href="./hp-header.html">Header</a></li>
               <li class="duik-sidebar__item"><a class="duik-sidebar__link" href="./hp-about.html">About Us section</a></li>
               <li class="duik-sidebar__item"><a class="duik-sidebar__link" href="./hp-messages.html">Messages section</a></li>
-              <li class="duik-sidebar__item"><a class="duik-sidebar__link active" href="./hp-posters.html">Official Posters section</a></li>
-              <li class="duik-sidebar__item"><a class="duik-sidebar__link" href="./hp-events.html">Events section</a></li>
+              <li class="duik-sidebar__item"><a class="duik-sidebar__link" href="./hp-posters.html">Official Posters section</a></li>
+              <li class="duik-sidebar__item"><a class="duik-sidebar__link active" href="./hp-events.html">Events section</a></li>
               <li class="duik-sidebar__item"><a class="duik-sidebar__link" href="./hp-partners.html">Our partners section</a></li>
               <li class="duik-sidebar__item"><a class="duik-sidebar__link" href="./hp-footer.html">Pre-footer/Footer section</a></li>
 
@@ -104,10 +104,9 @@
           <div class="col-xl-2 order-xl-2 d-none d-xl-inline-block">
             <ul class="js-scroll-nav duik-content-nav">    
               <li class="duik-content-nav__item"><a href="#introduction">Introduction</a></li>
-              <li class="duik-content-nav__item"><a href="#configurepost">Configure posters</a></li>
-              <li class="duik-content-nav__item"><a href="#configurevideo">Configure video</a></li>
-              <li class="duik-content-nav__item"><a href="#addpost">Add/remove posters</a></li>
-              <li class="duik-content-nav__item"><a href="#addvideo">Add/remove video</a></li>
+              <li class="duik-content-nav__item"><a href="#edittitel">Edit Main title, description and “View all events” button</a></li>
+              <li class="duik-content-nav__item"><a href="#editblock">Edit the Upcoming event block</a></li>
+
             </ul>
           </div>
           <!-- End Content Nav -->
@@ -116,59 +115,37 @@
           <div class="col-xl-10 order-xl-1 duik-content border-bottom">
             <div id="introduction" class="border-bottom mb-7">
               <h1>Introduction</h1>
-              <p> The multimedia content type includes the images and video type fields.
-                A custom block with a title and image is on the top left side of the section, the video block is on the top right side. Video title is redirecting the user to the Material Outreach page. Video block contains published date, and name at a maximum of 108 characters. This is a view block that admin user can configure to appear in a standard block region or landing page region.
-                Official posters section includes:</p>
-                <li>An image that is taken to the corresponding external page</li>
-                <li>Video block with a scroll bar from the right side. The scroll bar contains a maximum of 10 items</li>
-                <li>There are two more blocks below for the addition of more posters.</li>
+              <p> The events section includes the following elements:</p>
+                <li>Main title and description</li>
+                <li>View all events button</li>
+                <li>Upcoming event block</li>
+                <li>Register your event button</li>
+                <li>Events Map</li>
                </p>
             </div>
 
-            <!-- Configure posters -->
-            <div id="configurepost" class="border-bottom mb-7">
-              <h2 class="h4">Configure posters</h2>
-              <p><span class="badge badge-primary badge-pill align-self-center mr-2">1</span>To edit the poaster, a logged-in user should click on Edit button where the image can be changed, added an URL, click on Save button to see the changes applied:</p>
-              <img src="./img/posters/editpost.png" alt="aa" class="img-fluid">
+            <!-- Edit Main title -->
+            <div id="edittitel" class="border-bottom mb-7">
+              <h2 class="h4">Edit Main title, description and “View all events” button</h2>
+              <p><span class="badge badge-primary badge-pill align-self-center mr-2">1</span>To edit the title, description and “View all events” button, a logged-in user should use the Layout builder within the Administrative Menu and click on Configure button:</p>
+              <img src="./img/eventssection/configure.png" alt="aa" class="img-fluid">
+              <p><span class="badge badge-primary badge-pill align-self-center mr-2">2</span>Within the configuration block, admin user can edit the main title of the section, the description, the URL and title of the “View all events” button and the background color of the section. After editing the fields, click on UPDATE button and save the layout to see the changes applied:</p>
+              <img src="./img/eventssection/editevents.png"aa" class="img-fluid">
             </div>
-            <!-- End Configure posters -->
+            <!-- End Edit Main title -->
 
-            <!-- Configure video -->
-            <div id="configurevideo" class="border-bottom mb-7">
-              <h2 class="h4">Configure video</a></h2>
-              <p><span class="badge badge-primary badge-pill align-self-center mr-2">1</span>To edit the video, a logged-in user should click on Edit button where user is able to edit the Title, the video link/file, description and the posting date:</p>
-              <img src="./img/posters/editvideo.png" alt="aa" class="img-fluid">
-
-              </div>
-            <!-- End Configure video -->
+            <!-- Edit the Upcoming event block -->
+            <div id="editblock" class="border-bottom mb-7">
+              <h2 class="h4">Edit the Upcoming event block</a></h2>
+              <p><span class="badge badge-primary badge-pill align-self-center mr-2">1</span>To edit “Upcoming event” block, a logged-in user should click on Edit button on the block:</p>
+              <img src="./img/eventssection/editeventblock.png" alt="aa" class="img-fluid">
+              <p><span class="badge badge-primary badge-pill align-self-center mr-2">2</span>Within the configuration block, admin user can edit the email, organizer, title, date, street address, city, country, link to the event, description, exact geolocation. After editing the fields, click on SAVE button to see the changes applied:</p>
+              <img src="./img/eventssection/eventsconfig.png" alt="aa" class="img-fluid">
             
-            <!-- Add Add/remove posters -->
-            <div id="addpost" class="border-bottom mb-7">
-              <h2 class="h4">Add/remove posters</a></h2>
-              <p><span class="badge badge-primary badge-pill align-self-center mr-2">1</span>As a logged-in user, click on Lauout on the Administrative menu, then scroll to posters section:</p>
-              <img src="./img/posters/layout.PNG" alt="aa" class="img-fluid">
-              <p><span class="badge badge-primary badge-pill align-self-center mr-2">2</span>To remove posters section, within the configuration block, click on "x" at configure section button, then remove the section:</p>
-              <img src="./img/posters/removepost.PNG" alt="aa" class="img-fluid">
-              <p><span class="badge badge-primary badge-pill align-self-center mr-2">3</span>To add a posters section, within the configuration block, click on "add section", then on predefined WWD After Posters button:</p>
-              <img src="./img/posters/addposter.PNG" alt="aa" class="img-fluid">
-              <p><span class="badge badge-primary badge-pill align-self-center mr-2">4</span>Into a Configure section, select Column widht, and padding to the bottom:</p>
-              <img src="./img/posters/configsection.png" alt="aa" class="img-fluid">
-              <p><span class="badge badge-primary badge-pill align-self-center mr-2">5</span>Into a created section, Add a block -> Create a Custom block -> Multimedia block -> individual poter. Repeat the same action for created section on the right side and save the layout to see the changes on the site.</p>
-              <img src="./img/posters/individual poster.png" alt="aa" class="img-fluid">
             </div>
-            <!-- End Add Add/remove posters -->
+            <!-- End Edit the Upcoming event block -->
             
-            <!-- Add Add/remove video -->
-            <div id="addvideo" class="border-bottom mb-7">
-              <h2 class="h4">Add/remove video</a></h2>
-              <p><span class="badge badge-primary badge-pill align-self-center mr-2">1</span>As a logged-in user, click on Edit button from the video section to access the configuration menu:</p>
-              <img src="./img/posters/editvideo1.png" alt="aa" class="img-fluid">
-              <p><span class="badge badge-primary badge-pill align-self-center mr-2">2</span>Within the configuration block, admin user is able to edit the title of the video, description, date, remove the existing video and add another one instead:</p>
-              <img src="./img/posters/editvideo.png" alt="aa" class="img-fluid">
-            </div>
-            <!-- End Add Add/remove video -->
-
-
+           
   <!-- Go to Top -->
   <a class="js-go-to duik-go-to" href="javascript:;">
     <span class="fa fa-arrow-up duik-go-to__inner"></span>
