@@ -83,7 +83,7 @@
             <h5 class="duik-sidebar__heading">Home page</h5>
             <ul class="duik-sidebar__nav">
               <li class="duik-sidebar__item"><a class="duik-sidebar__link" href="./hp-header.html">Header</a></li>
-              <li class="duik-sidebar__item"><a class="duik-sidebar__link active" href="./hp-about.html">About Us section</a></li>
+              <li class="duik-sidebar__item"><a class="duik-sidebar__link" href="./hp-about.html">About Us section</a></li>
               <li class="duik-sidebar__item"><a class="duik-sidebar__link" href="./hp-messages.html">Messages section</a></li>
               <li class="duik-sidebar__item"><a class="duik-sidebar__link" href="./hp-posters.html">Official Posters section</a></li>
               <li class="duik-sidebar__item"><a class="duik-sidebar__link" href="./hp-events.html">Events section</a></li>
@@ -94,7 +94,7 @@
               <ul class="duik-sidebar__nav">
                 <li class="duik-sidebar__item"><a class="duik-sidebar__link" href="./events-header.html">Header and CTA cards</a></li>
                 <li class="duik-sidebar__item"><a class="duik-sidebar__link" href="./events-map.html">Events Map</a></li>
-                <li class="duik-sidebar__item"><a class="duik-sidebar__link" href="./events-list.html">Upcoming events list</a></li>
+                <li class="duik-sidebar__item"><a class="duik-sidebar__link active" href="./events-list.html">Upcoming events list</a></li>
                 <li class="duik-sidebar__item"><a class="duik-sidebar__link" href="./events-footer.html">Pre-footer/Footer section</a></li>
             </ul>
           </div>
@@ -109,9 +109,8 @@
           <div class="col-xl-2 order-xl-2 d-none d-xl-inline-block">
             <ul class="js-scroll-nav duik-content-nav">    
               <li class="duik-content-nav__item"><a href="#introduction">Introduction</a></li>
-              <li class="duik-content-nav__item"><a href="#title">Edit Title, Video, Main text</a></li>
-              <li class="duik-content-nav__item"><a href="#cta">Edit CTA cards</a></li>
-              <li class="duik-content-nav__item"><a href="#ctaremoveadd">Remove/Add CTA cards</a></li>
+              <li class="duik-content-nav__item"><a href="#viewblock">Edit view block</a></li>
+
             </ul>
           </div>
           <!-- End Content Nav -->
@@ -120,55 +119,28 @@
           <div class="col-xl-10 order-xl-1 duik-content border-bottom">
             <div id="introduction" class="border-bottom mb-7">
               <h1>Introduction</h1>
-              <p>The About Us section have following elements:
-                <li>Block with a title on a background gradient color on the top left</li>
-                <li>Video block</li>
-                <li>HTML text on the top left</li>
-                <li>Three call to action cards on bottom center</li>
-                <br>
-                All elements are editable by the user with admin role permissions.
-                </p>
+              <p>The upcoming events list includes 5 Event teasers displayed in a vertical list. The events are displayed in reverse chronological order by added date. Each teaser includes the following:
+                <li>Event date (e.g. "20 APR")</li>
+                <li>Image</li>
+                <li>Country (taxonomy)</li>
+                <li>Title</li>
+                <li>Organization</li>
+                <li>Short description</li>
+                <li>"Read More" accordion button (When the user clicks on the Read More, all Information related to the event will display)</li>
+                <li>View More Events link</li>
             </div>
 
-            <!-- Title/Video/Text -->
-            <div id="title" class="border-bottom mb-7">
-              <h2 class="h4">Edit Title, Video, Main text </h2>
-              <p><span class="badge badge-primary badge-pill align-self-center mr-2">1</span>To edit the title, video and main text of the About us section, a logged-in user should use the Layout builder within the Administrative Menu</p>
-              <img src="./img/about/layout.PNG" alt="aa" class="img-fluid">
-              <p><span class="badge badge-primary badge-pill align-self-center mr-2">2</span>Within the Layout builder, admin user can configure/edit the required part clicking on edit button -> configure: </p>
-              <img src="./img/about/configure.png" alt="aa" class="img-fluid">
-              <p><span class="badge badge-primary badge-pill align-self-center mr-2">3</span>A configuration block allows adim user to edit the Main Title, to insert video via URL or from local mashine, Edit the main text, insert a URL for "read more" button. After editing the fields, click Update, then Save the Layout configuration to see the changes applied to the site. </p>
-              <img src="./img/about/configblock.PNG" alt="aa" class="img-fluid">
+            <!-- Edit view block -->
+            <div id="viewblock" class="border-bottom mb-7">
+              <h2 class="h4">Edit view block</h2>
+              <p><span class="badge badge-primary badge-pill align-self-center mr-2">1</span>To edit the events view block, a logged-in user should click on Configure button:</p>
+              <img src="./img/Events/events/edit.png" alt="aa" class="img-fluid">
+              <p><span class="badge badge-primary badge-pill align-self-center mr-2">2</span>Within the configuration block, admin user can edit each event from the upcoming list (email, organizer, title, date, street address, city, country, image of the event, link to the event, description, geolocation):</p>
+              <img src="./img/Events/events/eventconfig.png" alt="aa" class="img-fluid">
+<br>
+              <img src="./img/Events/events/editevent.png" alt="aa" class="img-fluid">
             </div>
-            <!-- End Title/Video/Text -->
-
-            <!-- CTA -->
-            <div id="cta" class="border-bottom mb-7">
-              <h2 class="h4">Edit CTA cards</a></h2>
-              <p><span class="badge badge-primary badge-pill align-self-center mr-2">1</span>To edit the CTA cards, user should select the Edit tab and click on configure button:</p>
-              <img src="./img/about/CTAconfig.png" alt="aa" class="img-fluid">
-              <p><span class="badge badge-primary badge-pill align-self-center mr-2">2</span>Within the Configuration block, admin user can edit the card color using the pre-defined gradient or a fixed background color, Card title, description, set an URL for READ MORE button. Scrolling down, admin user is able to edit all three cards. After editing all fields, click Update button, then save the layout configuration.    </p>
-              <img src="./img/about/CTAedit.png" alt="aa" class="img-fluid">
-            </div>
-            <!-- End CTA -->
-
-            <!-- Remove/Add CTA cards -->
-            <div id="ctaremoveadd" class="border-bottom mb-7">
-              <h2 class="h4">Remove/Add CTA cards</a></h2>
-              <p><span class="badge badge-primary badge-pill align-self-center mr-2">1</span>To remove the CTA cards, admin user should select the Edit tab and click on remove button:</p>
-              <img src="./img/about/CTAremove.png" alt="aa" class="img-fluid">
-              <p><span class="badge badge-primary badge-pill align-self-center mr-2">2</span>To add the CTA cards in the About Us section, click on "+ Add block" within the Layout builder:</p>
-              <img src="./img/about/ctaadd.PNG" alt="aa" class="img-fluid">
-              <p><span class="badge badge-primary badge-pill align-self-center mr-2">3</span>Next step is to create a new Custom block for CTA cards:</p>
-              <img src="./img/about/createcustom.PNG" alt="aa" class="img-fluid">
-              <p><span class="badge badge-primary badge-pill align-self-center mr-2">4</span>Within new custom block, a Cards block should be created:</p>
-              <img src="./img/about/cardsblock.png" alt="aa" class="img-fluid">
-              <p><span class="badge badge-primary badge-pill align-self-center mr-2">5</span>Within the Configuration block, all related fields should be completed. Once the fields for the firs card are completed, click on add card and complete the same for second card, and for third card as well. After editing all fields, click Create block button</p>
-              <img src="./img/about/createcard.png" alt="aa" class="img-fluid">
-              <p><span class="badge badge-primary badge-pill align-self-center mr-2">6</span>After cards creation, drag and drop all three cards to the bottom of About Us section, click on Save layout to see tha changes on the site.</p>
-              <img src="./img/about/drag.png" alt="aa" class="img-fluid">
-            </div>
-            <!-- End Remove/Add CTA cards -->
+            <!-- End Edit view block -->
 
   <!-- Go to Top -->
   <a class="js-go-to duik-go-to" href="javascript:;">
